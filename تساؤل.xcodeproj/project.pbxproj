@@ -13,6 +13,7 @@
 		BC482A3E201F7A2700B2706F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC482A3D201F7A2700B2706F /* Assets.xcassets */; };
 		BC482A41201F7A2700B2706F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC482A3F201F7A2700B2706F /* LaunchScreen.storyboard */; };
 		BC482A4C201F7A2800B2706F /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC482A4B201F7A2800B2706F /* ______Tests.swift */; };
+		C69FEA782023AA82009CC1E9 /* xButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69FEA772023AA82009CC1E9 /* xButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,12 @@
 		BC482A47201F7A2800B2706F /* تساؤلTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "تساؤلTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC482A4B201F7A2800B2706F /* ______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______Tests.swift"; sourceTree = "<group>"; };
 		BC482A4D201F7A2800B2706F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C69FEA772023AA82009CC1E9 /* xButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xButton.swift; sourceTree = "<group>"; };
+		C6FEE64D2025C52000F23C0D /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../background.jpg; sourceTree = "<group>"; };
+		C6FEE64E2025CA9300F23C0D /* profileBackgrround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = profileBackgrround.jpg; path = ../../profileBackgrround.jpg; sourceTree = "<group>"; };
+		C6FEE64F2025D05F00F23C0D /* crop.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = crop.jpeg; path = ../../crop.jpeg; sourceTree = "<group>"; };
+		C6FEE6502025D0B300F23C0D /* صورة تخرج شخصيه.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "صورة تخرج شخصيه.png"; path = "../../صورة تخرج شخصيه.png"; sourceTree = "<group>"; };
+		C6FEE6512025D29E00F23C0D /* رندا.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "رندا.png"; path = "../../رندا.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +66,8 @@
 		BC482A2A201F7A2700B2706F = {
 			isa = PBXGroup;
 			children = (
+				C6FEE64C2025C4ED00F23C0D /* background */,
+				C69FEA762023A768009CC1E9 /* costomElement */,
 				BC482A35201F7A2700B2706F /* تساؤل */,
 				BC482A4A201F7A2800B2706F /* تساؤلTests */,
 				BC482A34201F7A2700B2706F /* Products */,
@@ -94,6 +103,26 @@
 				BC482A4D201F7A2800B2706F /* Info.plist */,
 			);
 			path = "تساؤلTests";
+			sourceTree = "<group>";
+		};
+		C69FEA762023A768009CC1E9 /* costomElement */ = {
+			isa = PBXGroup;
+			children = (
+				C69FEA772023AA82009CC1E9 /* xButton.swift */,
+			);
+			path = costomElement;
+			sourceTree = "<group>";
+		};
+		C6FEE64C2025C4ED00F23C0D /* background */ = {
+			isa = PBXGroup;
+			children = (
+				C6FEE64E2025CA9300F23C0D /* profileBackgrround.jpg */,
+				C6FEE64F2025D05F00F23C0D /* crop.jpeg */,
+				C6FEE6512025D29E00F23C0D /* رندا.png */,
+				C6FEE6502025D0B300F23C0D /* صورة تخرج شخصيه.png */,
+				C6FEE64D2025C52000F23C0D /* background.jpg */,
+			);
+			path = background;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC482A39201F7A2700B2706F /* ViewController.swift in Sources */,
+				C69FEA782023AA82009CC1E9 /* xButton.swift in Sources */,
 				BC482A37201F7A2700B2706F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
