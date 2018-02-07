@@ -548,7 +548,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JVr-V6-nb6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4246" y="1206"/>
+            <point key="canvasLocation" x="4650" y="1212"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="LWG-HK-q5Y">
@@ -632,7 +632,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="2748" y="-219"/>
+            <point key="canvasLocation" x="3271" y="-219"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="LfW-5M-aAe">
@@ -806,6 +806,9 @@
                                 <state key="normal" title="الأسئلة">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Jii-uB-OsI" kind="presentation" id="024-IX-Dyr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NRX-fD-dFO">
                                 <rect key="frame" x="206" y="497" width="77" height="37"/>
@@ -884,6 +887,9 @@
                                 <state key="normal" title="الأسئلة">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="oFk-eV-4vR" kind="presentation" id="Rpd-5M-Tz9"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -892,7 +898,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xnn-bm-OiM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2746" y="1148"/>
+            <point key="canvasLocation" x="3124" y="1211"/>
         </scene>
         <!--الأسئلة-->
         <scene sceneID="xzL-93-olF">
@@ -954,7 +960,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BY2-hg-0w9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3528.8000000000002" y="460.56971514242883"/>
+            <point key="canvasLocation" x="3706" y="459"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="E69-ZA-7nY">
@@ -978,7 +984,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bRI-zB-gHq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4247" y="460"/>
+            <point key="canvasLocation" x="4441" y="460"/>
         </scene>
         <!--الرئيسية-->
         <scene sceneID="7D2-vq-zCT">
@@ -1190,7 +1196,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dm7-U1-UlF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3511" y="1187"/>
+            <point key="canvasLocation" x="3921" y="1198"/>
         </scene>
         <!--الأسئلة-->
         <scene sceneID="o7H-Vz-8Xh">
