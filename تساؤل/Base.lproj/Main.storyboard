@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="IPw-LK-8BN">
             <objects>
-                <viewController id="rXX-zC-qlR" sceneMemberID="viewController">
+                <viewController id="rXX-zC-qlR" customClass="ViewController" customModule="تساو_ل" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kCY-Mh-vf8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -984,50 +984,81 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="666"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TgZ-ks-ptY">
-                                <rect key="frame" x="0.0" y="102" width="180" height="123"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aUu-qR-UH0">
+                                <rect key="frame" x="43" y="118" width="104" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" backgroundImage="c"/>
                                 <connections>
-                                    <segue destination="CDn-M4-DWT" kind="show" identifier="bussnesbutton" id="DbR-lz-das"/>
+                                    <segue destination="CDn-M4-DWT" kind="presentation" identifier="technology" id="uH5-Hb-Odv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DVo-tZ-cfU">
-                                <rect key="frame" x="188" y="93" width="171" height="140"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M3S-4N-L4o">
+                                <rect key="frame" x="214" y="118" width="102" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="d"/>
+                                <state key="normal" backgroundImage="d"/>
                                 <connections>
-                                    <segue destination="CDn-M4-DWT" kind="presentation" identifier="sincebutton" id="uLa-Sd-g8X"/>
+                                    <segue destination="CDn-M4-DWT" kind="presentation" identifier="scince" id="zqe-Ti-HGf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aFy-TL-wR5">
-                                <rect key="frame" x="188" y="265" width="171" height="136"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pGH-fG-U3g">
+                                <rect key="frame" x="43" y="263" width="104" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="c"/>
+                                <state key="normal" backgroundImage="img2"/>
                                 <connections>
-                                    <segue destination="CDn-M4-DWT" kind="presentation" identifier="technologybutton" id="PQf-yg-4lU"/>
+                                    <segue destination="CDn-M4-DWT" kind="presentation" identifier="generalinfo" id="Og4-2t-OTS"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A (1)" translatesAutoresizingMaskIntoConstraints="NO" id="RC4-RY-qeB">
-                                <rect key="frame" x="0.0" y="102" width="166" height="131"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxY-hh-4P3">
+                                <rect key="frame" x="214" y="263" width="102" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VIC-aO-pwB">
-                                <rect key="frame" x="7" y="265" width="166" height="136"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="img3"/>
+                                <state key="normal" backgroundImage="A (1)"/>
                                 <connections>
-                                    <segue destination="CDn-M4-DWT" kind="presentation" identifier="medecalbutton" id="9yK-Uh-t6N"/>
+                                    <segue destination="CDn-M4-DWT" kind="presentation" identifier="bussnis" id="ITj-Mk-53k"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k6C-im-3Z4">
-                                <rect key="frame" x="102" y="436" width="171" height="143"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FzD-6j-wL6">
+                                <rect key="frame" x="135" y="400" width="104" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="img2"/>
+                                <state key="normal" backgroundImage="img3"/>
                                 <connections>
-                                    <segue destination="CDn-M4-DWT" kind="presentation" identifier="generalinobutton" id="QkJ-Dk-bSJ"/>
+                                    <segue destination="CDn-M4-DWT" kind="presentation" identifier="medecal" id="O0x-QY-lLC"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="تكنولوجيا" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8aY-Fc-WuG">
+                                <rect key="frame" x="43" y="229" width="104" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="علوم" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ut-AJ-4Es">
+                                <rect key="frame" x="214" y="217" width="102" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ادارة" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDd-aR-6sv">
+                                <rect key="frame" x="214" y="371" width="102" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="معلومات عامه" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gde-Ac-sVb">
+                                <rect key="frame" x="16" y="371" width="147" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="طب" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m04-jp-rgq">
+                                <rect key="frame" x="135" y="511" width="104" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="hzc-I5-Kl9"/>
@@ -1289,7 +1320,7 @@
         <image name="صورة1.png" width="16" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QkJ-Dk-bSJ"/>
+        <segue reference="O0x-QY-lLC"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.80516737699999996" green="0.7984208465" blue="0.0076867458409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
