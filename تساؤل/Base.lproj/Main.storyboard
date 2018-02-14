@@ -18,55 +18,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaF-ZV-Q4h" customClass="xButton" customModule="تساو_ل" customModuleProvider="target">
-                                <rect key="frame" x="100" y="358" width="175" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="تسجيل دخول"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
-                                        <real key="value" value="20"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="J2t-gw-O5L" kind="presentation" identifier="loginview" id="wnj-h2-0L1"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zGG-u8-5wq">
-                                <rect key="frame" x="100" y="416" width="175" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="تصفح"/>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GP-logo" translatesAutoresizingMaskIntoConstraints="NO" id="57M-zT-6gs">
-                                <rect key="frame" x="132" y="115" width="111" height="165"/>
+                                <rect key="frame" x="132" y="139" width="111" height="165"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iqp-87-mcb" customClass="xButton" customModule="تساو_ل" customModuleProvider="target">
-                                <rect key="frame" x="100" y="288" width="175" height="39"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jpK-vQ-Jpg">
+                                <rect key="frame" x="84" y="347" width="207" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="إنشاء حساب"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
-                                        <real key="value" value="20"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="G0m-Np-7GY" kind="presentation" identifier="registerview" id="P0p-9a-5e3"/>
-                                </connections>
+                                <color key="backgroundColor" red="0.44861739873886108" green="0.59992575645446777" blue="0.59999763965606689" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="إنشاء حساب">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2en-O4-7W6">
+                                <rect key="frame" x="84" y="426" width="207" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.44861739873886108" green="0.59992575645446777" blue="0.59999763965606689" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="تسجيل دخول">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4vt-09-xIo">
+                                <rect key="frame" x="84" y="507" width="207" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.44861739873886108" green="0.59992575645446777" blue="0.59999763965606689" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="تصفح">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2WK-Kl-G5Q"/>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="UlH-4e-fAf"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="button1" destination="jpK-vQ-Jpg" id="DJb-TZ-WDE"/>
+                        <outlet property="button2" destination="2en-O4-7W6" id="WRB-CA-7GU"/>
+                        <outlet property="button3" destination="4vt-09-xIo" id="avc-Mn-osc"/>
                         <segue destination="g6a-eK-GBW" kind="push" id="b04-oW-AqK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Hc-dO-Khd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-92" y="119"/>
+            <point key="canvasLocation" x="-92" y="118.29085457271366"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5jX-wy-NlB">
@@ -962,7 +957,6 @@
                 <navigationController id="X2x-Bg-GIW" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="الرئيسية" image="Home" id="EjM-fT-4tf"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="per-pw-3AO">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.80516737699999996" green="0.7984208465" blue="0.0076867458409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1158,7 +1152,6 @@
                     <tabBarItem key="tabBarItem" title="بحث" image="Search" id="uPQ-Rf-l29"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1Zv-60-hHA">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.80516737699999996" green="0.7984208465" blue="0.0076867458409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
