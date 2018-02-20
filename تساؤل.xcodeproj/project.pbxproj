@@ -15,6 +15,7 @@
 		BC482A41201F7A2700B2706F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC482A3F201F7A2700B2706F /* LaunchScreen.storyboard */; };
 		BC482A4C201F7A2800B2706F /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC482A4B201F7A2800B2706F /* ______Tests.swift */; };
 		BCAF209D20371FE8008762E9 /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF209C20371FE8008762E9 /* myCell.swift */; };
+		C62CA22E203CB06300F38074 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62CA22D203CB06300F38074 /* UIView.swift */; };
 		C69FEA782023AA82009CC1E9 /* xButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69FEA772023AA82009CC1E9 /* xButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		BC482A4B201F7A2800B2706F /* ______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______Tests.swift"; sourceTree = "<group>"; };
 		BC482A4D201F7A2800B2706F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCAF209C20371FE8008762E9 /* myCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
+		C62CA22D203CB06300F38074 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		C69FEA772023AA82009CC1E9 /* xButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				C69FEA772023AA82009CC1E9 /* xButton.swift */,
+				C62CA22D203CB06300F38074 /* UIView.swift */,
 			);
 			path = costomElement;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C62CA22E203CB06300F38074 /* UIView.swift in Sources */,
 				BC482A39201F7A2700B2706F /* ViewController.swift in Sources */,
 				BCAF209D20371FE8008762E9 /* myCell.swift in Sources */,
 				C69FEA782023AA82009CC1E9 /* xButton.swift in Sources */,

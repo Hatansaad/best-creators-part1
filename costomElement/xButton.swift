@@ -7,11 +7,12 @@
 //
 
 import UIKit
-
 class xButton : UIButton {
-   @IBInspectable var CornerRadius : CGFloat  = 0 {
+    @IBInspectable var CornerRadius : CGFloat  = 0 {
         didSet {
             layer.cornerRadius = CornerRadius        }
+    }
 }
+
     
-}
+
