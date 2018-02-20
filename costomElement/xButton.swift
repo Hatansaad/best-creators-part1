@@ -13,4 +13,5 @@ class xButton : UIButton {
         didSet {
             layer.cornerRadius = CornerRadius        }
 }
+    
 }
