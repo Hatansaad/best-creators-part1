@@ -1,5 +1,5 @@
 //
-//  UIView.swift
+//.swift
 //  تساؤل
 //
 //  Created by HESSA on 2/20/18.
