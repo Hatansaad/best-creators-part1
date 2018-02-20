@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7305E4AD203C6187004EC873 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7305E4AC203C6187004EC873 /* GoogleService-Info.plist */; };
 		BC482A37201F7A2700B2706F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC482A36201F7A2700B2706F /* AppDelegate.swift */; };
 		BC482A39201F7A2700B2706F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC482A38201F7A2700B2706F /* ViewController.swift */; };
 		BC482A3C201F7A2700B2706F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC482A3A201F7A2700B2706F /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7305E4AC203C6187004EC873 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BC482A33201F7A2700B2706F /* تساؤل.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "تساؤل.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC482A36201F7A2700B2706F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC482A38201F7A2700B2706F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		BC482A35201F7A2700B2706F /* تساؤل */ = {
 			isa = PBXGroup;
 			children = (
+				7305E4AC203C6187004EC873 /* GoogleService-Info.plist */,
 				BC482A36201F7A2700B2706F /* AppDelegate.swift */,
 				BC482A38201F7A2700B2706F /* ViewController.swift */,
 				BC482A3A201F7A2700B2706F /* Main.storyboard */,
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC482A41201F7A2700B2706F /* LaunchScreen.storyboard in Resources */,
+				7305E4AD203C6187004EC873 /* GoogleService-Info.plist in Resources */,
 				BC482A3E201F7A2700B2706F /* Assets.xcassets in Resources */,
 				BC482A3C201F7A2700B2706F /* Main.storyboard in Resources */,
 			);
