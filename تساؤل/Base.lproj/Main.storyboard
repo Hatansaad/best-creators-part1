@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XQo-Vq-PYU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WSQ-gF-CYK">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -857,29 +857,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background-wallpaper-texture-pattern-color-dark-dark-dark-pictures-for-free-e1395888910703" translatesAutoresizingMaskIntoConstraints="NO" id="gRK-nS-GkA">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="348"/>
+                                <rect key="frame" x="0.0" y="0.0" width="635" height="348"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="الأسم" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f2P-i1-yjI">
-                                <rect key="frame" x="142" y="171" width="77" height="73"/>
+                                <rect key="frame" x="138" y="509.5" width="77" height="33.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="28"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="flower" translatesAutoresizingMaskIntoConstraints="NO" id="2EL-Li-SPJ" customClass="UIElement">
-                                <rect key="frame" x="99" y="44" width="176" height="138"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="2EL-Li-SPJ" secondAttribute="height" multiplier="1:1" id="ZjF-YT-01M"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
-                                        <real key="value" value="50"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="النبذة التعريفية" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bXM-NI-2W8">
-                                <rect key="frame" x="-127" y="204" width="360" height="89"/>
+                                <rect key="frame" x="-127" y="668" width="360" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -924,11 +913,23 @@
                                     <segue destination="ABi-Wo-dQd" kind="show" id="PH8-nd-usZ"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower" translatesAutoresizingMaskIntoConstraints="NO" id="24V-fj-dD3">
+                                <rect key="frame" x="112" y="80" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="9sJ-3H-mgd"/>
+                                    <constraint firstAttribute="width" secondItem="24V-fj-dD3" secondAttribute="height" multiplier="1:1" id="VGn-iu-5B2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                                        <real key="value" value="75"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="2EL-Li-SPJ" firstAttribute="centerX" secondItem="J9y-fZ-SKV" secondAttribute="centerX" id="8fV-Am-B5p"/>
-                            <constraint firstAttribute="trailing" secondItem="2EL-Li-SPJ" secondAttribute="trailing" constant="100" id="v9m-zX-dPx"/>
+                            <constraint firstItem="24V-fj-dD3" firstAttribute="centerX" secondItem="J9y-fZ-SKV" secondAttribute="centerX" id="Qvo-mw-REY"/>
+                            <constraint firstItem="24V-fj-dD3" firstAttribute="top" secondItem="cMT-1K-JIv" secondAttribute="top" constant="60" id="zHx-fh-w1h"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cMT-1K-JIv"/>
                     </view>
@@ -936,7 +937,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eFV-2L-sKd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1967" y="1296"/>
+            <point key="canvasLocation" x="1965.5999999999999" y="1295.8020989505249"/>
         </scene>
         <!--عرض الصفحة الشخصية-->
         <scene sceneID="vPh-kY-E6Y">
@@ -1655,7 +1656,6 @@
         <image name="user-2" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="PH8-nd-usZ"/>
         <segue reference="D3a-ts-Xk7"/>
         <segue reference="O0x-QY-lLC"/>
         <segue reference="5l2-IA-geC"/>
